@@ -38,7 +38,7 @@ const App = () => {
         <Form onSubmit={handleSubmit}>
           <Form.Group className='mb-3' controlId='formBasicEmail'>
             <Form.Label> Enter IP Address:</Form.Label>
-            <Form.Control type='text' value={ipAddress} onChange={(e) => setIpAddress(e.target.value)} />
+            <Form.Control className='' type='text' value={ipAddress} onChange={(e) => setIpAddress(e.target.value)} />
           </Form.Group>
           <Button type='submit' variant='primary'>
             Search
